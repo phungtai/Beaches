@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		667B8EBB182542EB00CD532C /* Playa Potreto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 667B8EBA182542EB00CD532C /* Playa Potreto.jpg */; };
+		668ED774181771A5001DB28B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668ED773181771A5001DB28B /* UIKit.framework */; };
+		668ED776181771A5001DB28B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668ED775181771A5001DB28B /* Foundation.framework */; };
+		668ED778181771A5001DB28B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668ED777181771A5001DB28B /* CoreGraphics.framework */; };
+		668ED77A181771A5001DB28B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668ED779181771A5001DB28B /* CoreData.framework */; };
+		668ED780181771A5001DB28B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 668ED77E181771A5001DB28B /* InfoPlist.strings */; };
+		668ED782181771A5001DB28B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 668ED781181771A5001DB28B /* main.m */; };
+		668ED786181771A5001DB28B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 668ED785181771A5001DB28B /* AppDelegate.m */; };
+		668ED788181771A5001DB28B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 668ED787181771A5001DB28B /* Default.png */; };
+		668ED78A181771A5001DB28B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 668ED789181771A5001DB28B /* Default@2x.png */; };
+		668ED78C181771A5001DB28B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 668ED78B181771A5001DB28B /* Default-568h@2x.png */; };
+		668ED78F181771A5001DB28B /* BeachesIntroduction.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 668ED78D181771A5001DB28B /* BeachesIntroduction.xcdatamodeld */; };
+		668ED7971817728C001DB28B /* Beaches.m in Sources */ = {isa = PBXBuildFile; fileRef = 668ED7961817728C001DB28B /* Beaches.m */; };
+		668ED79C18177304001DB28B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668ED79A18177304001DB28B /* ViewController.m */; };
+		668ED79D18177304001DB28B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 668ED79B18177304001DB28B /* ViewController.xib */; };
+		668ED7A918177427001DB28B /* fill.png in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7A018177427001DB28B /* fill.png */; };
+		668ED7AA18177427001DB28B /* fill@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7A118177427001DB28B /* fill@2x.png */; };
+		668ED7AB18177427001DB28B /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7A218177427001DB28B /* home.png */; };
+		668ED7AC18177427001DB28B /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7A318177427001DB28B /* home@2x.png */; };
+		668ED7AD18177427001DB28B /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7A418177427001DB28B /* images.jpeg */; };
+		668ED7AE18177427001DB28B /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7A518177427001DB28B /* search.png */; };
+		668ED7AF18177427001DB28B /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7A618177427001DB28B /* search@2x.png */; };
+		668ED7B018177427001DB28B /* sort.png in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7A718177427001DB28B /* sort.png */; };
+		668ED7B118177427001DB28B /* sort@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7A818177427001DB28B /* sort@2x.png */; };
+		668ED80E181774AF001DB28B /* Avellanas Rivermouth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7B3181774AF001DB28B /* Avellanas Rivermouth.jpg */; };
+		668ED80F181774AF001DB28B /* Backwash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7B4181774AF001DB28B /* Backwash.jpg */; };
+		668ED810181774AF001DB28B /* Bejuco Puntarenas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7B5181774AF001DB28B /* Bejuco Puntarenas.jpg */; };
+		668ED811181774AF001DB28B /* bejucopuntarenas12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7B6181774AF001DB28B /* bejucopuntarenas12.jpg */; };
+		668ED812181774AF001DB28B /* Boca Barranca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7B7181774AF001DB28B /* Boca Barranca.jpg */; };
+		668ED813181774AF001DB28B /* Boca Damas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7B8181774AF001DB28B /* Boca Damas.jpg */; };
+		668ED814181774AF001DB28B /* bocabarranca2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7B9181774AF001DB28B /* bocabarranca2.jpg */; };
+		668ED815181774AF001DB28B /* Cabuyal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7BA181774AF001DB28B /* Cabuyal.jpg */; };
+		668ED816181774AF001DB28B /* Cahuita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7BB181774AF001DB28B /* Cahuita.jpg */; };
+		668ED817181774AF001DB28B /* Caldera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7BC181774AF001DB28B /* Caldera.jpg */; };
+		668ED818181774AF001DB28B /* Callejones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7BD181774AF001DB28B /* Callejones.jpg */; };
+		668ED819181774AF001DB28B /* Camaronal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7BE181774AF001DB28B /* Camaronal.jpg */; };
+		668ED81A181774AF001DB28B /* camaronal1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7BF181774AF001DB28B /* camaronal1.jpg */; };
+		668ED81B181774AF001DB28B /* Carrillo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7C0181774AF001DB28B /* Carrillo.jpg */; };
+		668ED81C181774AF001DB28B /* carrillo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7C1181774AF001DB28B /* carrillo1.jpg */; };
+		668ED81D181774AF001DB28B /* Cocles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7C2181774AF001DB28B /* Cocles.jpg */; };
+		668ED81E181774AF001DB28B /* Corralillo (Puntrenas).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7C3181774AF001DB28B /* Corralillo (Puntrenas).jpg */; };
+		668ED81F181774AF001DB28B /* Dominical Reef.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7C4181774AF001DB28B /* Dominical Reef.jpg */; };
+		668ED820181774AF001DB28B /* Dominical.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7C5181774AF001DB28B /* Dominical.jpg */; };
+		668ED821181774AF001DB28B /* Esterillos Centro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7C6181774AF001DB28B /* Esterillos Centro.jpg */; };
+		668ED822181774AF001DB28B /* Esterillos Este.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7C7181774AF001DB28B /* Esterillos Este.jpg */; };
+		668ED823181774AF001DB28B /* Esterillos Oeste.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7C8181774AF001DB28B /* Esterillos Oeste.jpg */; };
+		668ED824181774AF001DB28B /* esterillosoeste1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7C9181774AF001DB28B /* esterillosoeste1.jpg */; };
+		668ED825181774AF001DB28B /* esterillosoeste2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7CA181774AF001DB28B /* esterillosoeste2.jpg */; };
+		668ED826181774AF001DB28B /* Flamingo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7CB181774AF001DB28B /* Flamingo.jpg */; };
+		668ED827181774AF001DB28B /* Guiones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7CC181774AF001DB28B /* Guiones.jpg */; };
+		668ED828181774AF001DB28B /* guiones2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7CD181774AF001DB28B /* guiones2.jpg */; };
+		668ED829181774AF001DB28B /* Icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7CE181774AF001DB28B /* Icon.jpeg */; };
+		668ED82A181774AF001DB28B /* Isla Herradura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7CF181774AF001DB28B /* Isla Herradura.jpg */; };
+		668ED82B181774AF001DB28B /* Isla Uvita (Limon).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7D0181774AF001DB28B /* Isla Uvita (Limon).jpg */; };
+		668ED82C181774AF001DB28B /* islaherradura2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7D1181774AF001DB28B /* islaherradura2.jpg */; };
+		668ED82D181774AF001DB28B /* Jaco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7D2181774AF001DB28B /* Jaco.jpg */; };
+		668ED82E181774AF001DB28B /* Junquillal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7D3181774AF001DB28B /* Junquillal.jpg */; };
+		668ED82F181774AF001DB28B /* Junquillal2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7D4181774AF001DB28B /* Junquillal2.jpg */; };
+		668ED830181774AF001DB28B /* Laberinto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7D5181774AF001DB28B /* Laberinto.jpg */; };
+		668ED831181774AF001DB28B /* Little Hawaii.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7D6181774AF001DB28B /* Little Hawaii.jpg */; };
+		668ED832181774AF001DB28B /* Los Tumbos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7D7181774AF001DB28B /* Los Tumbos.jpg */; };
+		668ED833181774AF001DB28B /* Mal Pais2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7D8181774AF001DB28B /* Mal Pais2.jpg */; };
+		668ED834181774AF001DB28B /* Malpais & Santa Teresa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7D9181774AF001DB28B /* Malpais & Santa Teresa.jpg */; };
+		668ED835181774AF001DB28B /* Manuel Antonio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7DA181774AF001DB28B /* Manuel Antonio.jpg */; };
+		668ED836181774AF001DB28B /* Manzanillo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7DB181774AF001DB28B /* Manzanillo.jpg */; };
+		668ED837181774AF001DB28B /* Marbella.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7DC181774AF001DB28B /* Marbella.jpg */; };
+		668ED838181774AF001DB28B /* Marbella2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7DD181774AF001DB28B /* Marbella2.jpg */; };
+		668ED839181774AF001DB28B /* Matapalo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7DE181774AF001DB28B /* Matapalo.jpg */; };
+		668ED83A181774AF001DB28B /* Montezuma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7DF181774AF001DB28B /* Montezuma.jpg */; };
+		668ED83B181774AF001DB28B /* Nosara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7E0181774AF001DB28B /* Nosara.jpg */; };
+		668ED83C181774AF001DB28B /* Ollie's Point.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7E1181774AF001DB28B /* Ollie's Point.jpg */; };
+		668ED83D181774AF001DB28B /* Ostional.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7E2181774AF001DB28B /* Ostional.jpg */; };
+		668ED83E181774AF001DB28B /* Pan Dulce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7E3181774AF001DB28B /* Pan Dulce.jpg */; };
+		668ED83F181774AF001DB28B /* Pan Dulce2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7E4181774AF001DB28B /* Pan Dulce2.jpg */; };
+		668ED840181774AF001DB28B /* Pavones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7E5181774AF001DB28B /* Pavones.jpg */; };
+		668ED841181774AF001DB28B /* Pavones2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7E6181774AF001DB28B /* Pavones2.jpg */; };
+		668ED842181774AF001DB28B /* Picture3.png in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7E7181774AF001DB28B /* Picture3.png */; };
+		668ED843181774AF001DB28B /* Playa Avellanas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7E8181774AF001DB28B /* Playa Avellanas.jpg */; };
+		668ED844181774AF001DB28B /* Playa Bonita (Limon).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7E9181774AF001DB28B /* Playa Bonita (Limon).jpg */; };
+		668ED845181774AF001DB28B /* Playa Escondida.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7EA181774AF001DB28B /* Playa Escondida.jpg */; };
+		668ED846181774AF001DB28B /* Playa Grande.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7EB181774AF001DB28B /* Playa Grande.jpg */; };
+		668ED847181774AF001DB28B /* Playa Hermosa (Guanacaste).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7EC181774AF001DB28B /* Playa Hermosa (Guanacaste).jpg */; };
+		668ED848181774AF001DB28B /* Playa Hermosa (Puntarenas).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7ED181774AF001DB28B /* Playa Hermosa (Puntarenas).jpg */; };
+		668ED849181774AF001DB28B /* Playa Hermosa (Puntarenas)1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7EE181774AF001DB28B /* Playa Hermosa (Puntarenas)1.jpg */; };
+		668ED84A181774AF001DB28B /* Playa Langosta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7EF181774AF001DB28B /* Playa Langosta.jpg */; };
+		668ED84B181774AF001DB28B /* Playa Negra (Limon).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7F0181774AF001DB28B /* Playa Negra (Limon).jpg */; };
+		668ED84C181774AF001DB28B /* Playa Negra (Limon)1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7F1181774AF001DB28B /* Playa Negra (Limon)1.jpg */; };
+		668ED84D181774AF001DB28B /* Playa Negra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7F2181774AF001DB28B /* Playa Negra.jpg */; };
+		668ED84E181774AF001DB28B /* Playa Negra.png in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7F3181774AF001DB28B /* Playa Negra.png */; };
+		668ED84F181774AF001DB28B /* Playa Negra2.png in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7F4181774AF001DB28B /* Playa Negra2.png */; };
+		668ED850181774AF001DB28B /* Playa Panama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7F5181774AF001DB28B /* Playa Panama.jpg */; };
+		668ED851181774AF001DB28B /* Playa Panama2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7F6181774AF001DB28B /* Playa Panama2.jpg */; };
+		668ED852181774AF001DB28B /* Playa Rajada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7F7181774AF001DB28B /* Playa Rajada.jpg */; };
+		668ED853181774AF001DB28B /* playaavellanas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7F8181774AF001DB28B /* playaavellanas.jpg */; };
+		668ED854181774AF001DB28B /* playaavellanas2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7F9181774AF001DB28B /* playaavellanas2.jpg */; };
+		668ED855181774AF001DB28B /* Playas del Coco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7FA181774AF001DB28B /* Playas del Coco.jpg */; };
+		668ED856181774AF001DB28B /* Playas del Coco1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7FB181774AF001DB28B /* Playas del Coco1.jpg */; };
+		668ED857181774AF001DB28B /* Potrero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7FC181774AF001DB28B /* Potrero.jpg */; };
+		668ED858181774AF001DB28B /* Potrero2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7FD181774AF001DB28B /* Potrero2.jpg */; };
+		668ED859181774AF001DB28B /* Puerto Viejo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7FE181774AF001DB28B /* Puerto Viejo.jpg */; };
+		668ED85A181774AF001DB28B /* Quepos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED7FF181774AF001DB28B /* Quepos.jpg */; };
+		668ED85B181774AF001DB28B /* Roca Bruja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED800181774AF001DB28B /* Roca Bruja.jpg */; };
+		668ED85C181774AF001DB28B /* Roca Bruja2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED801181774AF001DB28B /* Roca Bruja2.jpg */; };
+		668ED85D181774AF001DB28B /* Roca Loca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED802181774AF001DB28B /* Roca Loca.jpg */; };
+		668ED85E181774AF001DB28B /* Salsa Brava.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED803181774AF001DB28B /* Salsa Brava.jpg */; };
+		668ED85F181774AF001DB28B /* Samara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED804181774AF001DB28B /* Samara.jpg */; };
+		668ED860181774AF001DB28B /* Santa Teresa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED805181774AF001DB28B /* Santa Teresa.jpg */; };
+		668ED861181774AF001DB28B /* Tamarindo Beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED806181774AF001DB28B /* Tamarindo Beach.jpg */; };
+		668ED862181774AF001DB28B /* Tamarindo Rivermouth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED807181774AF001DB28B /* Tamarindo Rivermouth.jpg */; };
+		668ED863181774AF001DB28B /* Terrazas del Pacífico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED808181774AF001DB28B /* Terrazas del Pacífico.jpg */; };
+		668ED864181774AF001DB28B /* Terrazas del Pacifico1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED809181774AF001DB28B /* Terrazas del Pacifico1.jpg */; };
+		668ED865181774AF001DB28B /* Tivives.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED80A181774AF001DB28B /* Tivives.jpg */; };
+		668ED866181774AF001DB28B /* Tulín.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED80B181774AF001DB28B /* Tulín.jpg */; };
+		668ED867181774AF001DB28B /* Westfalia (Limon).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED80C181774AF001DB28B /* Westfalia (Limon).jpg */; };
+		668ED868181774AF001DB28B /* Zancudo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 668ED80D181774AF001DB28B /* Zancudo.jpg */; };
+		668ED8711817ADFD001DB28B /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 668ED8701817ADFD001DB28B /* Cell.m */; };
+		668ED8751817AE83001DB28B /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 668ED8741817AE83001DB28B /* Cell.xib */; };
+		6690452118234E6C00DF03F7 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6690451F18234E6C00DF03F7 /* AboutViewController.m */; };
+		6690452218234E6C00DF03F7 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6690452018234E6C00DF03F7 /* AboutViewController.xib */; };
+		6690452618239DE100DF03F7 /* Surf_Beaches_Database.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6690452518239DE100DF03F7 /* Surf_Beaches_Database.csv */; };
+		6690452A1823A60400DF03F7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 669045291823A60300DF03F7 /* Icon.png */; };
+		669392BD181909B20058C0B8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669392BB181909B20058C0B8 /* DetailViewController.m */; };
+		669392BE181909B20058C0B8 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 669392BC181909B20058C0B8 /* DetailViewController.xib */; };
+		66A78957182155DB0026002F /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A78956182155DB0026002F /* about.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		667B8EBA182542EB00CD532C /* Playa Potreto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Playa Potreto.jpg"; sourceTree = "<group>"; };
+		668ED770181771A5001DB28B /* BeachesIntroduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeachesIntroduction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		668ED773181771A5001DB28B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		668ED775181771A5001DB28B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		668ED777181771A5001DB28B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		668ED779181771A5001DB28B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		668ED77D181771A5001DB28B /* BeachesIntroduction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeachesIntroduction-Info.plist"; sourceTree = "<group>"; };
+		668ED77F181771A5001DB28B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		668ED781181771A5001DB28B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		668ED783181771A5001DB28B /* BeachesIntroduction-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeachesIntroduction-Prefix.pch"; sourceTree = "<group>"; };
+		668ED784181771A5001DB28B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		668ED785181771A5001DB28B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		668ED787181771A5001DB28B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		668ED789181771A5001DB28B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		668ED78B181771A5001DB28B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		668ED78E181771A5001DB28B /* BeachesIntroduction.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeachesIntroduction.xcdatamodel; sourceTree = "<group>"; };
+		668ED7951817728C001DB28B /* Beaches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Beaches.h; path = BeachesIntroduction/Beaches.h; sourceTree = "<group>"; };
+		668ED7961817728C001DB28B /* Beaches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Beaches.m; path = BeachesIntroduction/Beaches.m; sourceTree = "<group>"; };
+		668ED79918177304001DB28B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		668ED79A18177304001DB28B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		668ED79B18177304001DB28B /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		668ED7A018177427001DB28B /* fill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fill.png; sourceTree = "<group>"; };
+		668ED7A118177427001DB28B /* fill@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fill@2x.png"; sourceTree = "<group>"; };
+		668ED7A218177427001DB28B /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		668ED7A318177427001DB28B /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		668ED7A418177427001DB28B /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		668ED7A518177427001DB28B /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		668ED7A618177427001DB28B /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		668ED7A718177427001DB28B /* sort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sort.png; sourceTree = "<group>"; };
+		668ED7A818177427001DB28B /* sort@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sort@2x.png"; sourceTree = "<group>"; };
+		668ED7B3181774AF001DB28B /* Avellanas Rivermouth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Avellanas Rivermouth.jpg"; sourceTree = "<group>"; };
+		668ED7B4181774AF001DB28B /* Backwash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Backwash.jpg; sourceTree = "<group>"; };
+		668ED7B5181774AF001DB28B /* Bejuco Puntarenas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bejuco Puntarenas.jpg"; sourceTree = "<group>"; };
+		668ED7B6181774AF001DB28B /* bejucopuntarenas12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bejucopuntarenas12.jpg; sourceTree = "<group>"; };
+		668ED7B7181774AF001DB28B /* Boca Barranca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Boca Barranca.jpg"; sourceTree = "<group>"; };
+		668ED7B8181774AF001DB28B /* Boca Damas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Boca Damas.jpg"; sourceTree = "<group>"; };
+		668ED7B9181774AF001DB28B /* bocabarranca2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bocabarranca2.jpg; sourceTree = "<group>"; };
+		668ED7BA181774AF001DB28B /* Cabuyal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cabuyal.jpg; sourceTree = "<group>"; };
+		668ED7BB181774AF001DB28B /* Cahuita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cahuita.jpg; sourceTree = "<group>"; };
+		668ED7BC181774AF001DB28B /* Caldera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Caldera.jpg; sourceTree = "<group>"; };
+		668ED7BD181774AF001DB28B /* Callejones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Callejones.jpg; sourceTree = "<group>"; };
+		668ED7BE181774AF001DB28B /* Camaronal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Camaronal.jpg; sourceTree = "<group>"; };
+		668ED7BF181774AF001DB28B /* camaronal1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camaronal1.jpg; sourceTree = "<group>"; };
+		668ED7C0181774AF001DB28B /* Carrillo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Carrillo.jpg; sourceTree = "<group>"; };
+		668ED7C1181774AF001DB28B /* carrillo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carrillo1.jpg; sourceTree = "<group>"; };
+		668ED7C2181774AF001DB28B /* Cocles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cocles.jpg; sourceTree = "<group>"; };
+		668ED7C3181774AF001DB28B /* Corralillo (Puntrenas).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Corralillo (Puntrenas).jpg"; sourceTree = "<group>"; };
+		668ED7C4181774AF001DB28B /* Dominical Reef.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dominical Reef.jpg"; sourceTree = "<group>"; };
+		668ED7C5181774AF001DB28B /* Dominical.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dominical.jpg; sourceTree = "<group>"; };
+		668ED7C6181774AF001DB28B /* Esterillos Centro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Esterillos Centro.jpg"; sourceTree = "<group>"; };
+		668ED7C7181774AF001DB28B /* Esterillos Este.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Esterillos Este.jpg"; sourceTree = "<group>"; };
+		668ED7C8181774AF001DB28B /* Esterillos Oeste.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Esterillos Oeste.jpg"; sourceTree = "<group>"; };
+		668ED7C9181774AF001DB28B /* esterillosoeste1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = esterillosoeste1.jpg; sourceTree = "<group>"; };
+		668ED7CA181774AF001DB28B /* esterillosoeste2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = esterillosoeste2.jpg; sourceTree = "<group>"; };
+		668ED7CB181774AF001DB28B /* Flamingo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Flamingo.jpg; sourceTree = "<group>"; };
+		668ED7CC181774AF001DB28B /* Guiones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Guiones.jpg; sourceTree = "<group>"; };
+		668ED7CD181774AF001DB28B /* guiones2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guiones2.jpg; sourceTree = "<group>"; };
+		668ED7CE181774AF001DB28B /* Icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon.jpeg; sourceTree = "<group>"; };
+		668ED7CF181774AF001DB28B /* Isla Herradura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Isla Herradura.jpg"; sourceTree = "<group>"; };
+		668ED7D0181774AF001DB28B /* Isla Uvita (Limon).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Isla Uvita (Limon).jpg"; sourceTree = "<group>"; };
+		668ED7D1181774AF001DB28B /* islaherradura2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = islaherradura2.jpg; sourceTree = "<group>"; };
+		668ED7D2181774AF001DB28B /* Jaco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jaco.jpg; sourceTree = "<group>"; };
+		668ED7D3181774AF001DB28B /* Junquillal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Junquillal.jpg; sourceTree = "<group>"; };
+		668ED7D4181774AF001DB28B /* Junquillal2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Junquillal2.jpg; sourceTree = "<group>"; };
+		668ED7D5181774AF001DB28B /* Laberinto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Laberinto.jpg; sourceTree = "<group>"; };
+		668ED7D6181774AF001DB28B /* Little Hawaii.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Little Hawaii.jpg"; sourceTree = "<group>"; };
+		668ED7D7181774AF001DB28B /* Los Tumbos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Los Tumbos.jpg"; sourceTree = "<group>"; };
+		668ED7D8181774AF001DB28B /* Mal Pais2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mal Pais2.jpg"; sourceTree = "<group>"; };
+		668ED7D9181774AF001DB28B /* Malpais & Santa Teresa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Malpais & Santa Teresa.jpg"; sourceTree = "<group>"; };
+		668ED7DA181774AF001DB28B /* Manuel Antonio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Manuel Antonio.jpg"; sourceTree = "<group>"; };
+		668ED7DB181774AF001DB28B /* Manzanillo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Manzanillo.jpg; sourceTree = "<group>"; };
+		668ED7DC181774AF001DB28B /* Marbella.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marbella.jpg; sourceTree = "<group>"; };
+		668ED7DD181774AF001DB28B /* Marbella2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Marbella2.jpg; sourceTree = "<group>"; };
+		668ED7DE181774AF001DB28B /* Matapalo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Matapalo.jpg; sourceTree = "<group>"; };
+		668ED7DF181774AF001DB28B /* Montezuma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Montezuma.jpg; sourceTree = "<group>"; };
+		668ED7E0181774AF001DB28B /* Nosara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nosara.jpg; sourceTree = "<group>"; };
+		668ED7E1181774AF001DB28B /* Ollie's Point.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ollie's Point.jpg"; sourceTree = "<group>"; };
+		668ED7E2181774AF001DB28B /* Ostional.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ostional.jpg; sourceTree = "<group>"; };
+		668ED7E3181774AF001DB28B /* Pan Dulce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pan Dulce.jpg"; sourceTree = "<group>"; };
+		668ED7E4181774AF001DB28B /* Pan Dulce2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pan Dulce2.jpg"; sourceTree = "<group>"; };
+		668ED7E5181774AF001DB28B /* Pavones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pavones.jpg; sourceTree = "<group>"; };
+		668ED7E6181774AF001DB28B /* Pavones2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pavones2.jpg; sourceTree = "<group>"; };
+		668ED7E7181774AF001DB28B /* Picture3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Picture3.png; sourceTree = "<group>"; };
+		668ED7E8181774AF001DB28B /* Playa Avellanas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Playa Avellanas.jpg"; sourceTree = "<group>"; };
+		668ED7E9181774AF001DB28B /* Playa Bonita (Limon).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Playa Bonita (Limon).jpg"; sourceTree = "<group>"; };
+		668ED7EA181774AF001DB28B /* Playa Escondida.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Playa Escondida.jpg"; sourceTree = "<group>"; };
+		668ED7EB181774AF001DB28B /* Playa Grande.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Playa Grande.jpg"; sourceTree = "<group>"; };
+		668ED7EC181774AF001DB28B /* Playa Hermosa (Guanacaste).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Playa Hermosa (Guanacaste).jpg"; sourceTree = "<group>"; };
+		668ED7ED181774AF001DB28B /* Playa Hermosa (Puntarenas).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Playa Hermosa (Puntarenas).jpg"; sourceTree = "<group>"; };
+		668ED7EE181774AF001DB28B /* Playa Hermosa (Puntarenas)1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Playa Hermosa (Puntarenas)1.jpg"; sourceTree = "<group>"; };
+		668ED7EF181774AF001DB28B /* Playa Langosta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Playa Langosta.jpg"; sourceTree = "<group>"; };
+		668ED7F0181774AF001DB28B /* Playa Negra (Limon).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Playa Negra (Limon).jpg"; sourceTree = "<group>"; };
+		668ED7F1181774AF001DB28B /* Playa Negra (Limon)1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Playa Negra (Limon)1.jpg"; sourceTree = "<group>"; };
+		668ED7F2181774AF001DB28B /* Playa Negra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Playa Negra.jpg"; sourceTree = "<group>"; };
+		668ED7F3181774AF001DB28B /* Playa Negra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Playa Negra.png"; sourceTree = "<group>"; };
+		668ED7F4181774AF001DB28B /* Playa Negra2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Playa Negra2.png"; sourceTree = "<group>"; };
+		668ED7F5181774AF001DB28B /* Playa Panama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Playa Panama.jpg"; sourceTree = "<group>"; };
+		668ED7F6181774AF001DB28B /* Playa Panama2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Playa Panama2.jpg"; sourceTree = "<group>"; };
+		668ED7F7181774AF001DB28B /* Playa Rajada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Playa Rajada.jpg"; sourceTree = "<group>"; };
+		668ED7F8181774AF001DB28B /* playaavellanas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playaavellanas.jpg; sourceTree = "<group>"; };
+		668ED7F9181774AF001DB28B /* playaavellanas2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playaavellanas2.jpg; sourceTree = "<group>"; };
+		668ED7FA181774AF001DB28B /* Playas del Coco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Playas del Coco.jpg"; sourceTree = "<group>"; };
+		668ED7FB181774AF001DB28B /* Playas del Coco1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Playas del Coco1.jpg"; sourceTree = "<group>"; };
+		668ED7FC181774AF001DB28B /* Potrero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Potrero.jpg; sourceTree = "<group>"; };
+		668ED7FD181774AF001DB28B /* Potrero2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Potrero2.jpg; sourceTree = "<group>"; };
+		668ED7FE181774AF001DB28B /* Puerto Viejo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Puerto Viejo.jpg"; sourceTree = "<group>"; };
+		668ED7FF181774AF001DB28B /* Quepos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Quepos.jpg; sourceTree = "<group>"; };
+		668ED800181774AF001DB28B /* Roca Bruja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Roca Bruja.jpg"; sourceTree = "<group>"; };
+		668ED801181774AF001DB28B /* Roca Bruja2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Roca Bruja2.jpg"; sourceTree = "<group>"; };
+		668ED802181774AF001DB28B /* Roca Loca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Roca Loca.jpg"; sourceTree = "<group>"; };
+		668ED803181774AF001DB28B /* Salsa Brava.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Salsa Brava.jpg"; sourceTree = "<group>"; };
+		668ED804181774AF001DB28B /* Samara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Samara.jpg; sourceTree = "<group>"; };
+		668ED805181774AF001DB28B /* Santa Teresa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Santa Teresa.jpg"; sourceTree = "<group>"; };
+		668ED806181774AF001DB28B /* Tamarindo Beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tamarindo Beach.jpg"; sourceTree = "<group>"; };
+		668ED807181774AF001DB28B /* Tamarindo Rivermouth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tamarindo Rivermouth.jpg"; sourceTree = "<group>"; };
+		668ED808181774AF001DB28B /* Terrazas del Pacífico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Terrazas del Pacífico.jpg"; sourceTree = "<group>"; };
+		668ED809181774AF001DB28B /* Terrazas del Pacifico1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Terrazas del Pacifico1.jpg"; sourceTree = "<group>"; };
+		668ED80A181774AF001DB28B /* Tivives.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tivives.jpg; sourceTree = "<group>"; };
+		668ED80B181774AF001DB28B /* Tulín.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tulín.jpg"; sourceTree = "<group>"; };
+		668ED80C181774AF001DB28B /* Westfalia (Limon).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Westfalia (Limon).jpg"; sourceTree = "<group>"; };
+		668ED80D181774AF001DB28B /* Zancudo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zancudo.jpg; sourceTree = "<group>"; };
+		668ED86F1817ADFD001DB28B /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		668ED8701817ADFD001DB28B /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		668ED8741817AE83001DB28B /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		6690451E18234E6C00DF03F7 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		6690451F18234E6C00DF03F7 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		6690452018234E6C00DF03F7 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		6690452518239DE100DF03F7 /* Surf_Beaches_Database.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Surf_Beaches_Database.csv; sourceTree = "<group>"; };
+		669045291823A60300DF03F7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		669392BA181909B20058C0B8 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		669392BB181909B20058C0B8 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		669392BC181909B20058C0B8 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		66A78956182155DB0026002F /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		668ED76D181771A5001DB28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668ED774181771A5001DB28B /* UIKit.framework in Frameworks */,
+				668ED776181771A5001DB28B /* Foundation.framework in Frameworks */,
+				668ED778181771A5001DB28B /* CoreGraphics.framework in Frameworks */,
+				668ED77A181771A5001DB28B /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		668ED767181771A5001DB28B = {
+			isa = PBXGroup;
+			children = (
+				6690451D18234E4600DF03F7 /* About */,
+				669392B91819097B0058C0B8 /* DetailView */,
+				668ED86E1817ADCF001DB28B /* CustomCell */,
+				668ED869181775D8001DB28B /* Model */,
+				668ED79E18177427001DB28B /* images */,
+				668ED798181772E4001DB28B /* ViewController */,
+				668ED77B181771A5001DB28B /* BeachesIntroduction */,
+				668ED772181771A5001DB28B /* Frameworks */,
+				668ED771181771A5001DB28B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		668ED771181771A5001DB28B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				668ED770181771A5001DB28B /* BeachesIntroduction.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		668ED772181771A5001DB28B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				668ED773181771A5001DB28B /* UIKit.framework */,
+				668ED775181771A5001DB28B /* Foundation.framework */,
+				668ED777181771A5001DB28B /* CoreGraphics.framework */,
+				668ED779181771A5001DB28B /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		668ED77B181771A5001DB28B /* BeachesIntroduction */ = {
+			isa = PBXGroup;
+			children = (
+				668ED784181771A5001DB28B /* AppDelegate.h */,
+				668ED785181771A5001DB28B /* AppDelegate.m */,
+				668ED77C181771A5001DB28B /* Supporting Files */,
+			);
+			path = BeachesIntroduction;
+			sourceTree = "<group>";
+		};
+		668ED77C181771A5001DB28B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				669045291823A60300DF03F7 /* Icon.png */,
+				668ED77D181771A5001DB28B /* BeachesIntroduction-Info.plist */,
+				668ED77E181771A5001DB28B /* InfoPlist.strings */,
+				668ED781181771A5001DB28B /* main.m */,
+				668ED783181771A5001DB28B /* BeachesIntroduction-Prefix.pch */,
+				668ED787181771A5001DB28B /* Default.png */,
+				668ED789181771A5001DB28B /* Default@2x.png */,
+				668ED78B181771A5001DB28B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		668ED798181772E4001DB28B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				668ED79918177304001DB28B /* ViewController.h */,
+				668ED79A18177304001DB28B /* ViewController.m */,
+				668ED79B18177304001DB28B /* ViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		668ED79E18177427001DB28B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				668ED7B21817747C001DB28B /* image */,
+				668ED79F18177427001DB28B /* tabbar */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		668ED79F18177427001DB28B /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				66A78956182155DB0026002F /* about.png */,
+				668ED7A018177427001DB28B /* fill.png */,
+				668ED7A118177427001DB28B /* fill@2x.png */,
+				668ED7A218177427001DB28B /* home.png */,
+				668ED7A318177427001DB28B /* home@2x.png */,
+				668ED7A418177427001DB28B /* images.jpeg */,
+				668ED7A518177427001DB28B /* search.png */,
+				668ED7A618177427001DB28B /* search@2x.png */,
+				668ED7A718177427001DB28B /* sort.png */,
+				668ED7A818177427001DB28B /* sort@2x.png */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		668ED7B21817747C001DB28B /* image */ = {
+			isa = PBXGroup;
+			children = (
+				667B8EBA182542EB00CD532C /* Playa Potreto.jpg */,
+				668ED7B3181774AF001DB28B /* Avellanas Rivermouth.jpg */,
+				668ED7B4181774AF001DB28B /* Backwash.jpg */,
+				668ED7B5181774AF001DB28B /* Bejuco Puntarenas.jpg */,
+				668ED7B6181774AF001DB28B /* bejucopuntarenas12.jpg */,
+				668ED7B7181774AF001DB28B /* Boca Barranca.jpg */,
+				668ED7B8181774AF001DB28B /* Boca Damas.jpg */,
+				668ED7B9181774AF001DB28B /* bocabarranca2.jpg */,
+				668ED7BA181774AF001DB28B /* Cabuyal.jpg */,
+				668ED7BB181774AF001DB28B /* Cahuita.jpg */,
+				668ED7BC181774AF001DB28B /* Caldera.jpg */,
+				668ED7BD181774AF001DB28B /* Callejones.jpg */,
+				668ED7BE181774AF001DB28B /* Camaronal.jpg */,
+				668ED7BF181774AF001DB28B /* camaronal1.jpg */,
+				668ED7C0181774AF001DB28B /* Carrillo.jpg */,
+				668ED7C1181774AF001DB28B /* carrillo1.jpg */,
+				668ED7C2181774AF001DB28B /* Cocles.jpg */,
+				668ED7C3181774AF001DB28B /* Corralillo (Puntrenas).jpg */,
+				668ED7C4181774AF001DB28B /* Dominical Reef.jpg */,
+				668ED7C5181774AF001DB28B /* Dominical.jpg */,
+				668ED7C6181774AF001DB28B /* Esterillos Centro.jpg */,
+				668ED7C7181774AF001DB28B /* Esterillos Este.jpg */,
+				668ED7C8181774AF001DB28B /* Esterillos Oeste.jpg */,
+				668ED7C9181774AF001DB28B /* esterillosoeste1.jpg */,
+				668ED7CA181774AF001DB28B /* esterillosoeste2.jpg */,
+				668ED7CB181774AF001DB28B /* Flamingo.jpg */,
+				668ED7CC181774AF001DB28B /* Guiones.jpg */,
+				668ED7CD181774AF001DB28B /* guiones2.jpg */,
+				668ED7CE181774AF001DB28B /* Icon.jpeg */,
+				668ED7CF181774AF001DB28B /* Isla Herradura.jpg */,
+				668ED7D0181774AF001DB28B /* Isla Uvita (Limon).jpg */,
+				668ED7D1181774AF001DB28B /* islaherradura2.jpg */,
+				668ED7D2181774AF001DB28B /* Jaco.jpg */,
+				668ED7D3181774AF001DB28B /* Junquillal.jpg */,
+				668ED7D4181774AF001DB28B /* Junquillal2.jpg */,
+				668ED7D5181774AF001DB28B /* Laberinto.jpg */,
+				668ED7D6181774AF001DB28B /* Little Hawaii.jpg */,
+				668ED7D7181774AF001DB28B /* Los Tumbos.jpg */,
+				668ED7D8181774AF001DB28B /* Mal Pais2.jpg */,
+				668ED7D9181774AF001DB28B /* Malpais & Santa Teresa.jpg */,
+				668ED7DA181774AF001DB28B /* Manuel Antonio.jpg */,
+				668ED7DB181774AF001DB28B /* Manzanillo.jpg */,
+				668ED7DC181774AF001DB28B /* Marbella.jpg */,
+				668ED7DD181774AF001DB28B /* Marbella2.jpg */,
+				668ED7DE181774AF001DB28B /* Matapalo.jpg */,
+				668ED7DF181774AF001DB28B /* Montezuma.jpg */,
+				668ED7E0181774AF001DB28B /* Nosara.jpg */,
+				668ED7E1181774AF001DB28B /* Ollie's Point.jpg */,
+				668ED7E2181774AF001DB28B /* Ostional.jpg */,
+				668ED7E3181774AF001DB28B /* Pan Dulce.jpg */,
+				668ED7E4181774AF001DB28B /* Pan Dulce2.jpg */,
+				668ED7E5181774AF001DB28B /* Pavones.jpg */,
+				668ED7E6181774AF001DB28B /* Pavones2.jpg */,
+				668ED7E7181774AF001DB28B /* Picture3.png */,
+				668ED7E8181774AF001DB28B /* Playa Avellanas.jpg */,
+				668ED7E9181774AF001DB28B /* Playa Bonita (Limon).jpg */,
+				668ED7EA181774AF001DB28B /* Playa Escondida.jpg */,
+				668ED7EB181774AF001DB28B /* Playa Grande.jpg */,
+				668ED7EC181774AF001DB28B /* Playa Hermosa (Guanacaste).jpg */,
+				668ED7ED181774AF001DB28B /* Playa Hermosa (Puntarenas).jpg */,
+				668ED7EE181774AF001DB28B /* Playa Hermosa (Puntarenas)1.jpg */,
+				668ED7EF181774AF001DB28B /* Playa Langosta.jpg */,
+				668ED7F0181774AF001DB28B /* Playa Negra (Limon).jpg */,
+				668ED7F1181774AF001DB28B /* Playa Negra (Limon)1.jpg */,
+				668ED7F2181774AF001DB28B /* Playa Negra.jpg */,
+				668ED7F3181774AF001DB28B /* Playa Negra.png */,
+				668ED7F4181774AF001DB28B /* Playa Negra2.png */,
+				668ED7F5181774AF001DB28B /* Playa Panama.jpg */,
+				668ED7F6181774AF001DB28B /* Playa Panama2.jpg */,
+				668ED7F7181774AF001DB28B /* Playa Rajada.jpg */,
+				668ED7F8181774AF001DB28B /* playaavellanas.jpg */,
+				668ED7F9181774AF001DB28B /* playaavellanas2.jpg */,
+				668ED7FA181774AF001DB28B /* Playas del Coco.jpg */,
+				668ED7FB181774AF001DB28B /* Playas del Coco1.jpg */,
+				668ED7FC181774AF001DB28B /* Potrero.jpg */,
+				668ED7FD181774AF001DB28B /* Potrero2.jpg */,
+				668ED7FE181774AF001DB28B /* Puerto Viejo.jpg */,
+				668ED7FF181774AF001DB28B /* Quepos.jpg */,
+				668ED800181774AF001DB28B /* Roca Bruja.jpg */,
+				668ED801181774AF001DB28B /* Roca Bruja2.jpg */,
+				668ED802181774AF001DB28B /* Roca Loca.jpg */,
+				668ED803181774AF001DB28B /* Salsa Brava.jpg */,
+				668ED804181774AF001DB28B /* Samara.jpg */,
+				668ED805181774AF001DB28B /* Santa Teresa.jpg */,
+				668ED806181774AF001DB28B /* Tamarindo Beach.jpg */,
+				668ED807181774AF001DB28B /* Tamarindo Rivermouth.jpg */,
+				668ED808181774AF001DB28B /* Terrazas del Pacífico.jpg */,
+				668ED809181774AF001DB28B /* Terrazas del Pacifico1.jpg */,
+				668ED80A181774AF001DB28B /* Tivives.jpg */,
+				668ED80B181774AF001DB28B /* Tulín.jpg */,
+				668ED80C181774AF001DB28B /* Westfalia (Limon).jpg */,
+				668ED80D181774AF001DB28B /* Zancudo.jpg */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		668ED869181775D8001DB28B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6690452518239DE100DF03F7 /* Surf_Beaches_Database.csv */,
+				668ED78D181771A5001DB28B /* BeachesIntroduction.xcdatamodeld */,
+				668ED7951817728C001DB28B /* Beaches.h */,
+				668ED7961817728C001DB28B /* Beaches.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		668ED86E1817ADCF001DB28B /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				668ED86F1817ADFD001DB28B /* Cell.h */,
+				668ED8701817ADFD001DB28B /* Cell.m */,
+				668ED8741817AE83001DB28B /* Cell.xib */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		6690451D18234E4600DF03F7 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				6690451E18234E6C00DF03F7 /* AboutViewController.h */,
+				6690451F18234E6C00DF03F7 /* AboutViewController.m */,
+				6690452018234E6C00DF03F7 /* AboutViewController.xib */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		669392B91819097B0058C0B8 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				669392BA181909B20058C0B8 /* DetailViewController.h */,
+				669392BB181909B20058C0B8 /* DetailViewController.m */,
+				669392BC181909B20058C0B8 /* DetailViewController.xib */,
+			);
+			name = DetailView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		668ED76F181771A5001DB28B /* BeachesIntroduction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668ED792181771A5001DB28B /* Build configuration list for PBXNativeTarget "BeachesIntroduction" */;
+			buildPhases = (
+				668ED76C181771A5001DB28B /* Sources */,
+				668ED76D181771A5001DB28B /* Frameworks */,
+				668ED76E181771A5001DB28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeachesIntroduction;
+			productName = BeachesIntroduction;
+			productReference = 668ED770181771A5001DB28B /* BeachesIntroduction.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		668ED768181771A5001DB28B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = MAC;
+			};
+			buildConfigurationList = 668ED76B181771A5001DB28B /* Build configuration list for PBXProject "BeachesIntroduction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 668ED767181771A5001DB28B;
+			productRefGroup = 668ED771181771A5001DB28B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				668ED76F181771A5001DB28B /* BeachesIntroduction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		668ED76E181771A5001DB28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668ED780181771A5001DB28B /* InfoPlist.strings in Resources */,
+				668ED788181771A5001DB28B /* Default.png in Resources */,
+				668ED78A181771A5001DB28B /* Default@2x.png in Resources */,
+				668ED78C181771A5001DB28B /* Default-568h@2x.png in Resources */,
+				668ED79D18177304001DB28B /* ViewController.xib in Resources */,
+				668ED7A918177427001DB28B /* fill.png in Resources */,
+				668ED7AA18177427001DB28B /* fill@2x.png in Resources */,
+				668ED7AB18177427001DB28B /* home.png in Resources */,
+				668ED7AC18177427001DB28B /* home@2x.png in Resources */,
+				668ED7AD18177427001DB28B /* images.jpeg in Resources */,
+				668ED7AE18177427001DB28B /* search.png in Resources */,
+				668ED7AF18177427001DB28B /* search@2x.png in Resources */,
+				668ED7B018177427001DB28B /* sort.png in Resources */,
+				668ED7B118177427001DB28B /* sort@2x.png in Resources */,
+				668ED80E181774AF001DB28B /* Avellanas Rivermouth.jpg in Resources */,
+				668ED80F181774AF001DB28B /* Backwash.jpg in Resources */,
+				668ED810181774AF001DB28B /* Bejuco Puntarenas.jpg in Resources */,
+				668ED811181774AF001DB28B /* bejucopuntarenas12.jpg in Resources */,
+				668ED812181774AF001DB28B /* Boca Barranca.jpg in Resources */,
+				668ED813181774AF001DB28B /* Boca Damas.jpg in Resources */,
+				668ED814181774AF001DB28B /* bocabarranca2.jpg in Resources */,
+				668ED815181774AF001DB28B /* Cabuyal.jpg in Resources */,
+				668ED816181774AF001DB28B /* Cahuita.jpg in Resources */,
+				668ED817181774AF001DB28B /* Caldera.jpg in Resources */,
+				668ED818181774AF001DB28B /* Callejones.jpg in Resources */,
+				668ED819181774AF001DB28B /* Camaronal.jpg in Resources */,
+				668ED81A181774AF001DB28B /* camaronal1.jpg in Resources */,
+				668ED81B181774AF001DB28B /* Carrillo.jpg in Resources */,
+				668ED81C181774AF001DB28B /* carrillo1.jpg in Resources */,
+				668ED81D181774AF001DB28B /* Cocles.jpg in Resources */,
+				668ED81E181774AF001DB28B /* Corralillo (Puntrenas).jpg in Resources */,
+				668ED81F181774AF001DB28B /* Dominical Reef.jpg in Resources */,
+				668ED820181774AF001DB28B /* Dominical.jpg in Resources */,
+				668ED821181774AF001DB28B /* Esterillos Centro.jpg in Resources */,
+				668ED822181774AF001DB28B /* Esterillos Este.jpg in Resources */,
+				668ED823181774AF001DB28B /* Esterillos Oeste.jpg in Resources */,
+				668ED824181774AF001DB28B /* esterillosoeste1.jpg in Resources */,
+				668ED825181774AF001DB28B /* esterillosoeste2.jpg in Resources */,
+				668ED826181774AF001DB28B /* Flamingo.jpg in Resources */,
+				668ED827181774AF001DB28B /* Guiones.jpg in Resources */,
+				668ED828181774AF001DB28B /* guiones2.jpg in Resources */,
+				668ED829181774AF001DB28B /* Icon.jpeg in Resources */,
+				668ED82A181774AF001DB28B /* Isla Herradura.jpg in Resources */,
+				668ED82B181774AF001DB28B /* Isla Uvita (Limon).jpg in Resources */,
+				668ED82C181774AF001DB28B /* islaherradura2.jpg in Resources */,
+				668ED82D181774AF001DB28B /* Jaco.jpg in Resources */,
+				668ED82E181774AF001DB28B /* Junquillal.jpg in Resources */,
+				668ED82F181774AF001DB28B /* Junquillal2.jpg in Resources */,
+				668ED830181774AF001DB28B /* Laberinto.jpg in Resources */,
+				668ED831181774AF001DB28B /* Little Hawaii.jpg in Resources */,
+				668ED832181774AF001DB28B /* Los Tumbos.jpg in Resources */,
+				668ED833181774AF001DB28B /* Mal Pais2.jpg in Resources */,
+				668ED834181774AF001DB28B /* Malpais & Santa Teresa.jpg in Resources */,
+				668ED835181774AF001DB28B /* Manuel Antonio.jpg in Resources */,
+				668ED836181774AF001DB28B /* Manzanillo.jpg in Resources */,
+				668ED837181774AF001DB28B /* Marbella.jpg in Resources */,
+				668ED838181774AF001DB28B /* Marbella2.jpg in Resources */,
+				668ED839181774AF001DB28B /* Matapalo.jpg in Resources */,
+				668ED83A181774AF001DB28B /* Montezuma.jpg in Resources */,
+				668ED83B181774AF001DB28B /* Nosara.jpg in Resources */,
+				668ED83C181774AF001DB28B /* Ollie's Point.jpg in Resources */,
+				668ED83D181774AF001DB28B /* Ostional.jpg in Resources */,
+				668ED83E181774AF001DB28B /* Pan Dulce.jpg in Resources */,
+				668ED83F181774AF001DB28B /* Pan Dulce2.jpg in Resources */,
+				668ED840181774AF001DB28B /* Pavones.jpg in Resources */,
+				668ED841181774AF001DB28B /* Pavones2.jpg in Resources */,
+				668ED842181774AF001DB28B /* Picture3.png in Resources */,
+				668ED843181774AF001DB28B /* Playa Avellanas.jpg in Resources */,
+				668ED844181774AF001DB28B /* Playa Bonita (Limon).jpg in Resources */,
+				668ED845181774AF001DB28B /* Playa Escondida.jpg in Resources */,
+				668ED846181774AF001DB28B /* Playa Grande.jpg in Resources */,
+				668ED847181774AF001DB28B /* Playa Hermosa (Guanacaste).jpg in Resources */,
+				668ED848181774AF001DB28B /* Playa Hermosa (Puntarenas).jpg in Resources */,
+				668ED849181774AF001DB28B /* Playa Hermosa (Puntarenas)1.jpg in Resources */,
+				668ED84A181774AF001DB28B /* Playa Langosta.jpg in Resources */,
+				668ED84B181774AF001DB28B /* Playa Negra (Limon).jpg in Resources */,
+				668ED84C181774AF001DB28B /* Playa Negra (Limon)1.jpg in Resources */,
+				668ED84D181774AF001DB28B /* Playa Negra.jpg in Resources */,
+				668ED84E181774AF001DB28B /* Playa Negra.png in Resources */,
+				668ED84F181774AF001DB28B /* Playa Negra2.png in Resources */,
+				668ED850181774AF001DB28B /* Playa Panama.jpg in Resources */,
+				668ED851181774AF001DB28B /* Playa Panama2.jpg in Resources */,
+				668ED852181774AF001DB28B /* Playa Rajada.jpg in Resources */,
+				668ED853181774AF001DB28B /* playaavellanas.jpg in Resources */,
+				668ED854181774AF001DB28B /* playaavellanas2.jpg in Resources */,
+				668ED855181774AF001DB28B /* Playas del Coco.jpg in Resources */,
+				668ED856181774AF001DB28B /* Playas del Coco1.jpg in Resources */,
+				668ED857181774AF001DB28B /* Potrero.jpg in Resources */,
+				668ED858181774AF001DB28B /* Potrero2.jpg in Resources */,
+				668ED859181774AF001DB28B /* Puerto Viejo.jpg in Resources */,
+				668ED85A181774AF001DB28B /* Quepos.jpg in Resources */,
+				668ED85B181774AF001DB28B /* Roca Bruja.jpg in Resources */,
+				668ED85C181774AF001DB28B /* Roca Bruja2.jpg in Resources */,
+				668ED85D181774AF001DB28B /* Roca Loca.jpg in Resources */,
+				668ED85E181774AF001DB28B /* Salsa Brava.jpg in Resources */,
+				668ED85F181774AF001DB28B /* Samara.jpg in Resources */,
+				668ED860181774AF001DB28B /* Santa Teresa.jpg in Resources */,
+				668ED861181774AF001DB28B /* Tamarindo Beach.jpg in Resources */,
+				668ED862181774AF001DB28B /* Tamarindo Rivermouth.jpg in Resources */,
+				668ED863181774AF001DB28B /* Terrazas del Pacífico.jpg in Resources */,
+				668ED864181774AF001DB28B /* Terrazas del Pacifico1.jpg in Resources */,
+				668ED865181774AF001DB28B /* Tivives.jpg in Resources */,
+				668ED866181774AF001DB28B /* Tulín.jpg in Resources */,
+				668ED867181774AF001DB28B /* Westfalia (Limon).jpg in Resources */,
+				668ED868181774AF001DB28B /* Zancudo.jpg in Resources */,
+				668ED8751817AE83001DB28B /* Cell.xib in Resources */,
+				669392BE181909B20058C0B8 /* DetailViewController.xib in Resources */,
+				66A78957182155DB0026002F /* about.png in Resources */,
+				6690452218234E6C00DF03F7 /* AboutViewController.xib in Resources */,
+				6690452618239DE100DF03F7 /* Surf_Beaches_Database.csv in Resources */,
+				6690452A1823A60400DF03F7 /* Icon.png in Resources */,
+				667B8EBB182542EB00CD532C /* Playa Potreto.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		668ED76C181771A5001DB28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668ED782181771A5001DB28B /* main.m in Sources */,
+				668ED786181771A5001DB28B /* AppDelegate.m in Sources */,
+				668ED78F181771A5001DB28B /* BeachesIntroduction.xcdatamodeld in Sources */,
+				668ED7971817728C001DB28B /* Beaches.m in Sources */,
+				668ED79C18177304001DB28B /* ViewController.m in Sources */,
+				668ED8711817ADFD001DB28B /* Cell.m in Sources */,
+				669392BD181909B20058C0B8 /* DetailViewController.m in Sources */,
+				6690452118234E6C00DF03F7 /* AboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		668ED77E181771A5001DB28B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668ED77F181771A5001DB28B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		668ED790181771A5001DB28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos6.1;
+			};
+			name = Debug;
+		};
+		668ED791181771A5001DB28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos6.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		668ED793181771A5001DB28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeachesIntroduction/BeachesIntroduction-Prefix.pch";
+				INFOPLIST_FILE = "BeachesIntroduction/BeachesIntroduction-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		668ED794181771A5001DB28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeachesIntroduction/BeachesIntroduction-Prefix.pch";
+				INFOPLIST_FILE = "BeachesIntroduction/BeachesIntroduction-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		668ED76B181771A5001DB28B /* Build configuration list for PBXProject "BeachesIntroduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668ED790181771A5001DB28B /* Debug */,
+				668ED791181771A5001DB28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668ED792181771A5001DB28B /* Build configuration list for PBXNativeTarget "BeachesIntroduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668ED793181771A5001DB28B /* Debug */,
+				668ED794181771A5001DB28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		668ED78D181771A5001DB28B /* BeachesIntroduction.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				668ED78E181771A5001DB28B /* BeachesIntroduction.xcdatamodel */,
+			);
+			currentVersion = 668ED78E181771A5001DB28B /* BeachesIntroduction.xcdatamodel */;
+			name = BeachesIntroduction.xcdatamodeld;
+			path = BeachesIntroduction/BeachesIntroduction.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 668ED768181771A5001DB28B /* Project object */;
+}
